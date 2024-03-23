@@ -6,16 +6,16 @@
  * @package           Map Addons For Elementor
  *
  * @wordpress-plugin
- * Plugin Name:       Waze Map, Bing Maps For WordPress & Elementor
- * Plugin URI:        https://codember.com/
- * Description: 	  Easily intregate Waze map & Bing Maps on your wordpress & Elementor website.
+ * Plugin Name:       Local Business Addon (Formally Waze Map)
+ * Plugin URI:        https://nervythemes.com/local-business-addon
+ * Description: 	  Easily Build Local Business Website using Elementor.
  * Version:           1.1
  * Author:            NervyThemes
- * Author URI:        https://codember.com/
+ * Author URI:        https://nervythemes.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: 	  map-addons-elementor
- * Tested up to:      6.4.1
+ * Tested up to:      6.5
 
  */
 
