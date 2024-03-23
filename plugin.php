@@ -1,5 +1,4 @@
 <?php
-		// namespace ElementorHelloWorld;
 		namespace MapAddonsElementor;
 
 		/**
@@ -9,27 +8,8 @@
 		 */
 		class Plugin {
 
-			/**
-			 * Instance
-			 *
-			 * @since 1.0ß
-			 * @access private
-			 * @static
-			 *
-			 * @var Plugin The single instance of the class.
-			 */
 			private static $_instance = null;
 
-			/**
-			 * Instance
-			 *
-			 * Ensures only one instance of the class is loaded or can be loaded.
-			 *
-			 * @since 1.2.0
-			 * @access public
-			 *
-			 * @return Plugin An instance of the class.
-			 */
 			public static function instance() {
 				if ( is_null( self::$_instance ) ) {
 					self::$_instance = new self();
@@ -51,7 +31,7 @@
 				 $elements_manager->add_category(
 					'map-addons-elementor-category',
 					[
-						'title' => __( 'Map Addons For Elementor', 'map-addons-elementor' ),
+						'title' => __( 'Local Business Addons', 'map-addons-elementor' ),
 						'icon' => 'fa fa-plug',
 					]
 				);
@@ -73,6 +53,7 @@
 			private function include_widgets_files() {
 				require_once( __DIR__ . '/widgets/waze-map.php' );
 				require_once( __DIR__ . '/widgets/bing-maps.php' );
+				require_once( __DIR__ . '/widgets/airbnb.php' );
 			}
 
 			/**
@@ -90,6 +71,7 @@
 				// Register Widgets
 				\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Widgets\Waze_Map_For_Elementor() );
 				\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Widgets\Bing_Maps() );
+				\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new Widgets\LBA_Airbnb() );
 			}
 
 			/**
