@@ -73,5 +73,6 @@ Ans: You must install and activate Elementor before using this plugin.
 1.1.2:
 
 - Added Dual Button Widget
+- Added Assets
 - Added New CSS Support
 - README Updated
