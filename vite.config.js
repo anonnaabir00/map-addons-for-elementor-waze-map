@@ -12,6 +12,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
       'main': path.resolve(__dirname, 'src/main.js'),
+      'slider': path.resolve(__dirname, 'src/slider.js'),
       'app': path.resolve(__dirname, 'src/style.css'),
       },
 
