@@ -2,14 +2,14 @@
 /**
  *
  * @link              https://nervythemes.com/local-business-addons
- * @since             1.1.1
+ * @since             1.1.2
  * @package           Local Business Addons For Elementor (Formally Waze Map)
  *
  * @wordpress-plugin
  * Plugin Name:       Local Business Addons For Elementor (Formally Waze Map)
  * Plugin URI:        https://nervythemes.com/local-business-addons
  * Description: 	  Easily Build Local Business Website using Elementor.
- * Version:           1.1.1
+ * Version:           1.1.2
  * Author:            NervyThemes
  * Author URI:        https://nervythemes.com
  * License:           GPL-2.0+
