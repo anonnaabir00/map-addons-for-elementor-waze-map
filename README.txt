@@ -5,7 +5,7 @@ Donate link: https://nervythemes.com/
 Requires at least: 3.0.1
 Tested up to: 6.5
 Requires PHP: 7.2
-Stable tag: trunk
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,4 +67,11 @@ Ans: You must install and activate Elementor before using this plugin.
 
 - Tested & Compatible up to latest WordPress 6.5
 - Add Airbnb Addon
+- README Updated
+
+
+1.1.2:
+
+- Added Dual Button Widget
+- Added New CSS Support
 - README Updated
