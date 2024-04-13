@@ -11,8 +11,8 @@ export default defineConfig({
     manifest: false,
     rollupOptions: {
       input: {
-      'main': path.resolve(__dirname, 'src/main.js'),
-      'app': path.resolve(__dirname, 'src/style.css'),
+      'main': path.resolve(__dirname, 'ar_src/main.js'),
+      'app': path.resolve(__dirname, 'ar_src/style.css'),
       },
 
         output:{

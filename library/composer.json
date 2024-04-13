@@ -1,0 +1,18 @@
+{
+    "name": "nervythemes/local-business-addons",
+    "autoload": {
+        "psr-4": {
+            "Nervythemes\\LocalBusinessAddons\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Asaduzzaman Abir",
+            "email": "anonnaabir00@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "appsero/client": "dev-develop"
+    }
+}
