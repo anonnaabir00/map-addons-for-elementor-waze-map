@@ -110,6 +110,7 @@
 			}
 
 			// Once we get here, We have passed all validation checks so we can safely include our plugin
+			require __DIR__ . '/library/vendor/autoload.php';
 			require_once( 'functions.php' );
 			require_once( 'plugin.php' );
 		}
