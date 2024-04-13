@@ -12,6 +12,8 @@ circle.yml
 composer.json
 composer.lock
 Gruntfile.js
+postcss.config.cjs
+tailwind.config.cjs
 postcss.config.js
 tailwind.config.js
 vite.config.js
@@ -25,9 +27,10 @@ phpcs.ruleset.xml
 README.md
 wp-cli.local.yml
 tests
-vendor
 node_modules
-src
+vendor
+!library
+ar_src
 *.sql
 *.tar.gz
 *.zip
