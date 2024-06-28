@@ -1,11 +1,11 @@
 # Local Business Addons For Elementor (Formally Waze Map)
-Contributors: asadabir, nervythemes
+Contributors: asadabir, nervythemes, ashrafulraihan89
 Tags: elementor, elementor addons, elementor widgets, waze map, airbnb
 Donate link: https://nervythemes.com/
 Requires at least: 3.0.1
-Tested up to: 6.5
+Tested up to: 6.5.5
 Requires PHP: 7.2
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -99,5 +99,11 @@ Ans: You must install and activate Elementor before using this plugin.
 
 - Removed Freemius Integration
 - Added Appsero Integration
+- README Updated
+- Bug Fixed
+
+1.1.5:
+
+- Tested & Compatible up to latest WordPress 6.5.5
 - README Updated
 - Bug Fixed
